@@ -1,0 +1,35 @@
+name: DevFest
+description: DevFest 2019 App made in BLoC
+version: 1.0.0+1
+authors:
+  - Shivam Goyal | https://itsshivam.com/
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^0.14.4
+  flutter_bloc: ^0.20.1
+  equatable: ^0.4.0
+  http: ^0.12.0+2
+  url_launcher: ^5.1.2
+  font_awesome_flutter: ^8.5.0
+  shared_preferences: ^0.5.3+4
+  cached_network_image: ^2.0.0-rc
+  share: ^0.6.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+  fonts:
+    - family: GoogleSans
+      fonts:
+        - asset: assets/fonts/GoogleSansRegular.ttf
